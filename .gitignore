@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 ANN-N.h5
 TF-IDF.pkl
+.DS_Store
