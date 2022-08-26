@@ -4,7 +4,7 @@ The main objective of this API is categorizing products. It takes the title with
 
 ## Running the project
 
-- python 3.10 is required
+- python 3.10 at minimum is required
 - Clone the repository 
 
 > git clone https://github.com/mouadlaayouni-youcan/product-category-api.git
