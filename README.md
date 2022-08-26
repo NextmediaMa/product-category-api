@@ -32,3 +32,6 @@ wget https://store3.gofile.io/download/c9324af4-fb56-4a94-979f-250a8d64371f/TF-I
 wget https://store3.gofile.io/download/264d9274-48b1-4a16-8720-fc94f2c3af50/ANN-N.h5
 ```
 
+### Documentation :
+
+[Link to the documentation](https://nextmediama.atlassian.net/wiki/spaces/YOUC/pages/edit-v2/2577465345)
