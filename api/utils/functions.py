@@ -14,7 +14,11 @@ def combineColumns(df):
     return df2
 
 
-def downloadFileIfNotAvailable(path_to_file):
-    if not os.path.exists(path_to_file):
-        print('Downloading mising file ' + path_to_file)
-        return os.system("wget https://store3.gofile.io/download/c9324af4-fb56-4a94-979f-250a8d64371f/TF-IDF.pkl")
+def downloadFileIfNotAvailable():
+    if not os.path.exists("TF-IDF.pkl"):
+        print('Downloading missing file TF-IDF.pkl')
+        os.system("wget https://store3.gofile.io/download/c9324af4-fb56-4a94-979f-250a8d64371f/TF-IDF.pkl")
+    if not os.path.exists("ANN-N.h5"):
+        print('Downloading missing file TF-IDF.pkl')
+        os.system("wget https://store3.gofile.io/download/264d9274-48b1-4a16-8720-fc94f2c3af50/ANN-N.h5")
+
