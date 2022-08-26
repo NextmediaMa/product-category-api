@@ -1,6 +1,6 @@
 import pandas as pd
-from json import JSONEncoder
 import numpy as np
+import os
 
 
 def combineColumns(df):
@@ -14,8 +14,7 @@ def combineColumns(df):
     return df2
 
 
-class NumpyArrayEncoder(JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, np.ndarray):
-            return obj.tolist()
-        return JSONEncoder.default(self, obj)
+def downloadFileIfNotAvailable(path_to_file):
+    if not os.path.exists(path_to_file):
+        print('Downloading mising file ' + path_to_file)
+        return os.system("wget https://store3.gofile.io/download/c9324af4-fb56-4a94-979f-250a8d64371f/TF-IDF.pkl")

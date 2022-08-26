@@ -5,6 +5,7 @@ import string
 import pandas as pd
 from bs4 import BeautifulSoup
 
+#nltk.download('stopwords')
 lst_stopwords = nltk.corpus.stopwords.words("english")
 lst_stopwords
 
